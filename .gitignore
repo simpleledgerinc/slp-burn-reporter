@@ -1,0 +1,8 @@
+node_modules
+state
+.state_lock
+.env
+*.js
+*.txt
+BURNED_INPUTS.csv
+INVALID_OUTPUTS.csv

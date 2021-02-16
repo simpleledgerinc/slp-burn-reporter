@@ -1,0 +1,23 @@
+{
+  "name": "slp-burn-reporter",
+  "version": "1.0.0",
+  "description": "Compare slp validation results between different indexer implementations",
+  "main": "index.ts",
+  "dependencies": {
+    "bchaddrjs-slp": "^0.2.12",
+    "dotenv": "^8.2.0",
+    "grpc-bchrpc-node": "0.12.0",
+    "protons": "^1.2.1",
+    "slp-validate": "^1.2.3",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Cramer",
+  "license": "ISC"
+}
